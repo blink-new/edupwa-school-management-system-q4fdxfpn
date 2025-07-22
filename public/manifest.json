@@ -1,0 +1,94 @@
+{
+  "name": "EduPWA - School Management System",
+  "short_name": "EduPWA",
+  "description": "A comprehensive Progressive Web App designed to digitize and streamline school operations for educational institutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2563EB",
+  "theme_color": "#2563EB",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity", "business"],
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "EduPWA Dashboard"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "EduPWA Mobile View"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your dashboard",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Classes",
+      "short_name": "Classes",
+      "description": "Manage your classes",
+      "url": "/classes",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Assignments",
+      "short_name": "Assignments",
+      "description": "View assignments",
+      "url": "/assignments",
+      "icons": [
+        {
+          "src": "/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
